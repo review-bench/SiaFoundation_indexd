@@ -1,3 +1,16 @@
+## 0.2.3 (2026-05-21)
+
+### Features
+
+- Remove ErrAbortedRPC.
+
+### Fixes
+
+- Use `ErrorCodeClientError` to prevent transport reset for all client errors.
+- Expose AddFailedRPC on the client
+- Support compressed Geo IP database downloads from CDN.
+- Update mux to v1.5.1.
+
 ## 0.2.2 (2026-05-13)
 
 ### Features
